@@ -1,0 +1,103 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Movienight Feedback Form</title>
+
+<link rel="stylesheet" href="styles.css"></link>
+
+<body>
+
+  <h1 id="title">Movienight Feedback Form</h1>
+
+  <p id="description">Please complete this form to provide feedback about the movie that was played and refreshments that were served at Halloween Movie Night. Your feedback will do a great deal to improve our movie nights.</p>
+  <div></div>
+
+  <form id="survey-form">Please fill in the following  details: 
+
+  <div></div>
+
+    <label id="name-label"> Name: <input placeholder="Full Name"id="name" class="name-label" type="text" required ></label>
+
+  <div></div>
+
+    <label id="email-label" >Email Address: <input placeholder="email@network.com" id="email" class="email-label" type="email" required ></label>
+
+  <div></div>
+
+    <label id="number-label"> Seat number: <input placeholder="54" id="number" class="number-label" type="number" required min="0" max="100"></label>
+
+  <div></div>
+
+  <p class="select">What type of movies do you enjoy?</p>
+
+    <select id="dropdown" required > 
+      <option value="select one">select one</option>
+      <option value="thriller">thriller</option>
+      <option value="action">action</option>
+      <option value="romance">romance</option>
+      <option value="comedy">comedy</option>
+      <option value="romantic-comedy" >romantic comedy</option>
+      <option value="documentary" >documentary</option>
+    
+    </select>
+
+  <p class = "malefemale">Are you Male or Female?</p>
+    <label id="male" value="male" for="questionmalefemale" > 
+    </label>
+
+  <div></div>
+
+    <input type="radio" checked name="questionmalefemale" value="male" >Male</label>
+
+  <div></div>
+
+    <label id="female" value="female" for="questionmalefemale">  
+    <input type="radio" name="questionmalefemale" value="female" >Female</label>
+
+  <div></div>
+  <div class="endofform"></div>
+  <div></div>
+  
+    <label class="checkbox"><input type="checkbox" value="invitation-consent">I consent to recieving email invitations to Movie Nights in the future</label>
+  <div></div>
+    <label class="checkbox"><input type="checkbox" value="promotions-consent">I consent to recieving promotional emails with information about the latest products and services </label>
+
+  <div class="padding"></div>
+  <div class="endofform"></div>
+  <div class="padding"></div>
+
+    <textarea placeholder="Please type in any further feedback you may have to share."></textarea>
+
+  <div></div>
+
+  <div class="submit"><button id="submit"  type="submit" display="block"> submit</div>
+  <div></div>
+
+</form>
+</button>
+</body>
+</html>
+
+<style>
+html {background-color: pink;
+}
+p,h1 {color: #6f4d38; text-align: center}
+div {height: 10px;
+width: 100%; color: black;
+display: inline-block; }
+form {background-color: #C8AE7E;
+padding: 15px;color:white}
+.submit{text-align: center;}
+.select,.malefemale{text-align:left; color: white;}
+textarea {height:200px;width: 100%;border:#6f4d38;}
+
+select {color:#6f4d38}
+.endofform {height: 3px; background-color:#6f4d38;}
+.padding{height:30px;}
+.name-label,.email-label,.number-label {float:right;width:50%;}
+.checkbox{display:block;text-align:left;}
+
+</style>
+
