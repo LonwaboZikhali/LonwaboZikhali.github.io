@@ -1,0 +1,6 @@
+body {background-color:rgb(197, 113, 127);padding: 5vw;}
+h1 {text-align: center;font-size: 5vw}
+p {text-align: justify; width: 100%;margin:auto;color: rgb(207, 207, 168);font-family: monospace; font-size: 1.60vw;padding-bottom: 2vw;}
+.container {color: black;padding-top: 3vw;display:flex;justify-content: auto;}
+.image {width: 50vw;align-items:left;max-width:100%;max-height:100%;}
+.text {width: 75vw;align-items: right;padding:auto;}
