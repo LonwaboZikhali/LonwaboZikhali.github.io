@@ -5,6 +5,7 @@ body {background-color:rgb(160, 91, 103);
     justify-content: center;  
     position: relative; 
     transform: scale(1);
+    padding: 0;
     }
     
 h1 {text-align: center;
@@ -33,6 +34,7 @@ p {text-align: justify;
     width: 45%;
     align-items: left;
     padding-bottom: 1vw;
+    max-width: 100%;
 }
 
 .text {
@@ -55,4 +57,53 @@ max-width: 100vw;
 text-align: center;
 align-items: center;
 }
+}
+
+.divider {height: 0.2vw;
+    background-color: black;   
+}
+
+.buttons {padding: 2vw;
+    border: 0;
+    align-items: center;
+}
+
+.button1 {height: 2vw;
+    background-color: wheat;
+    width: 18vw;
+    height: 18vw;
+    display: inline-block;
+    align-items: center;
+    margin: 1vw;
+    font-size: 1vw;
+}
+
+.button2 {height: 2vw;
+    background-color: wheat;
+    width: 18vw;
+    height: 18vw;
+    display: inline-block;
+    align-items: center;
+    margin: 1vw;
+    font-size: 1vw;
+}
+
+.button3 {height: 2vw;
+    background-color: wheat;
+    width: 18vw;
+    height: 18vw;
+    display: inline-block;
+    align-items: center;
+    margin: 1vw;
+    font-size: 1vw;
+}
+
+.button4 {height: 2vw;
+    background-color: wheat;
+    width: 18vw;
+    height: 18vw;
+    display: inline-block;
+    align-items: center;
+    margin: 1vw;
+    font-size: 1vw;
 }
