@@ -1,4 +1,4 @@
- *{brder: 1px solid black;}
+ *{boder: 1px solid black;}
 
 html {scroll-behavior: smooth;
     }
@@ -16,18 +16,29 @@ header {display: flex;
 h1 {text-align: center;
     font-size: 7vw;
     margin-bottom: 2vw;
-    color: black;
+    color: wheat;
+    }
+
+h2 {text-align: center;
+    font-size: 5vw;
+    margin-bottom: 2vw;
+    color: wheat;
     }
 
 a {
-    color: #e0ab8b;
+    color: wheat;
     }
 
-p {text-align: justify; 
+.intro-line1 {
+    font-size: 10px;
+}
+
+p {
+    text-align: justify; 
     margin:auto; 
-    color: rgb(250, 250, 249);
+    color: linen;
     font-family: monospace; 
-    font-size: 1.60vw;
+    font-size: 1.6vw;
     padding-bottom: 2vw;
     }
 
@@ -39,13 +50,6 @@ p {text-align: justify;
     align-items: center;
     }
 
-img {
-    width: 30.5vw;
-    max-width: 100vw;
-    margin: 0;
-    padding: 0;
-
-    }
 
 .image { 
     display: block;
@@ -63,17 +67,20 @@ img {
 
 
 .divider {height: 0.02vw;
-    background-color: black;  
+    background-color: wheat;  
     width: 90%;
     margin: auto;
 }
 
-li {display: inline;
+li {
+    display: inline;
     float: left;
     font-size:large;
+    
 }
 
-ul {list-style-type: none; 
+ul {
+    list-style-type: none; 
     margin: 0;
     padding: 0;
     background-color: #a05b67;
@@ -82,7 +89,7 @@ ul {list-style-type: none;
     width: 100%;
     z-index: 2;
     display: flex; 
-    align-items: flex-end;
+    justify-content: flex-end;
     
 }
 
@@ -93,7 +100,8 @@ ul {list-style-type: none;
 
 }
 
-li a {display: block;
+li a {
+    display: block;
     padding: 5px;
     background-color: #a05b67;
     text-align: center;
@@ -102,11 +110,15 @@ li a {display: block;
     text-decoration: none;
 }
 
-li a:hover {background-color: wheat;
+li a:hover {
+    background-color: wheat; 
+    font-weight: bold;
+    color: #a05b67;
 }  
 
 
-.welcomepage {margin: 3vw;
+.welcomepage {
+    margin: 3vw;
     flex-direction: column; 
     align-items: center;
     justify-content: center;  
@@ -130,6 +142,10 @@ li a:hover {background-color: wheat;
 .recipes {
     margin: 2vw;
     padding:0 ;
+}
+
+.recipe-tile img{
+    width: 90%
 }
 
 .recipes-content {
@@ -180,15 +196,69 @@ li a:hover {background-color: wheat;
 
 .arrow {
     display: flex;
-    margin: auto;
     margin-top: 70vh;
     animation-name: arrow;
     animation-duration: 1.5s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-out;
     width: 10vw;
+    margin: auto;
 }  
 
+.project-contents {
+    display: inline-block; 
+    justify-content:space-between;
+    margin: 3vw;
+}
+
+.project-tile {
+    width: 16vw; 
+    height: auto; 
+    align-items: center;
+    margin: auto;
+    padding: 3vw;
+}
+
+.project-graphics {
+    display: inline-flex;
+}
+
+.project-descriptions {
+    display: inline-flex;
+   
+    
+
+}
+
+.project-descriptions p {
+    width: 16vw; 
+    text-align: center; 
+    color: black; 
+    font-weight: bold;
+    padding: 0;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    
+
+}
+
+.project-tile p {
+    text-align: center; 
+    color: black;
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+}
+
+.mousey-tile {
+    width: 100%; 
+    height: auto; 
+    text-align: center;
+}
+
+.recipe-tile {
+    width: 100%;
+}
 
 .videoplaceholder {
     width: 100%;
@@ -243,49 +313,34 @@ li a:hover {background-color: wheat;
 }
 
 
-
-
-
-
-
-@keyframes arrow {
-    0% {margin-top: 85vh;
-    }
-    25% {margin-top: 75vh;
-    }
-    35% {margin-top: 75vh;
-    }
-    50% {margin-top: 85vh;
-    }
-    75% {margin-top: 75vh;
-    }
-    90% {margin-top: 75vh;
-    }
-    100% {margin-top: 85vh;
-    }
-}
 .hi-there {
     margin: auto;
     display: flex;
     align-items: center;
-    width: 60%;
 }
-.intro .line1 { position: absolute;
-    width: 60%;
-    font-size: 3vw;
-    color: wheat;
+.intro .line1 {
+    
+    font-size: 5vw;
     font-weight: bold;
-    text-align: center;
+    top: -10vh;
+    margin: auto;
 }
-.intro .line2 { position: absolute;
-    width: 60%;
-    margin-top: 10vh;
-    font-size: 2.8vw;
+.intro .line2 {
+    
+    font-size: 3vw;
+    margin: auto;
+    top: 1vh;
+}
+.intro {
+    display: flex;
+    justify-content: center;
     color: wheat;
+    width: 100%;
     text-align: center;
+    position: absolute;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 700px) {
     .text {
         width: 100%;
         max-width: 100vw;
@@ -294,7 +349,9 @@ li a:hover {background-color: wheat;
         padding: 2vw;
         }
     
-    p {font-size: 14px;}
+    p {
+        font-size: 14px;
+    }
 
     .textcontainer {
         padding: 0; 
@@ -304,6 +361,38 @@ li a:hover {background-color: wheat;
         align-items: center;
         }
     
+       
+        
+    .hi-there {
+            margin: auto;
+            display: flex;
+            align-items: center; 
+        }
+
+    .intro .line1 {
+            
+            font-size: 5vw;
+            font-weight: bold;
+            top: -7vh;
+            margin: auto;
+        }
+        
+    .intro .line2 {
+            
+            font-size: 3vw;
+            margin: auto;
+
+        }
+        
+    .intro {
+            display: flex;
+            justify-content: center;
+            color: wheat;
+            width: 100%;
+            text-align: center;
+            position: absolute;
+        }      
+
     img {
         width: 100%;
         max-width: 100vw;
@@ -338,41 +427,47 @@ li a:hover {background-color: wheat;
 
     .videoplaceholder {
         width: 100%;
-        height: 35vh;
+        height: 55vw;
         background-color: gray;
         margin: auto;
-        margin-top: 0;
-        margin-bottom: 0;
-        color: black;
         }
         
     .mouseytext {
         color: black;
-        width: 70%;
+        width: 100%;
         margin: auto;
         display: flexbox;
         justify-content: column;
-        order: 3;
+        order: 2;
+        font-size: 10vw;
+        margin-top: 5vw;
         }
         
+    .mouseyparagraph {
+        font-family: monospace; 
+        font-size: 3vw ;
+        margin: 0;
+    }
+    
+
     .mousey_contents {
         display: flex;
         justify-content: center;
-        margin: 2vw;
+        margin: 5vw;
         margin-top: 0;
         flex-direction: column;
     }
         
     .videoparagraph {
         font-family: monospace; 
-        font-size: 1.2vw ;
-        margin: 0;
+        font-size: 3vw;
+        color: wheat;
+        width: 60%;
+        margin: 2vw;
+        }
     }
         
-    .meet_mousey {display: flexbox;
-        flex-direction: column;}
-
-    .mouseyvideo {
+        .mouseyvideo {
         width:100%;
         margin: auto;
         display: flexbox;
@@ -384,15 +479,20 @@ li a:hover {background-color: wheat;
     }
         
     .downloadgame {display: flex;
-        order: 4;}
+        order: 3;
+        justify-content: space-between;
+        margin: 5vw;
+    }
 
     .mouseydownload {
-        margin: auto;
-        height: 3vw;
-        width: 20%;
+        
+        height: 10vw;
+        width: 25%;
         background-color: linen;
         color: #a05b67;
-        font-size: 1vw;
+        font-size: 2vw;
+        align-items: center;
+        margin: 1vw
     }
     .imagedescription {
         border: 0.01vw solid #a05b67;
@@ -415,4 +515,21 @@ li a:hover {background-color: wheat;
         margin-top: 5vw;
         align-items: center;
 }
+
+
+@keyframes arrow {
+    0% {margin-top: 85vh;
+    }
+    25% {margin-top: 75vh;
+    }
+    35% {margin-top: 75vh;
+    }
+    50% {margin-top: 85vh;
+    }
+    75% {margin-top: 75vh;
+    }
+    90% {margin-top: 75vh;
+    }
+    100% {margin-top: 85vh;
+    }
 }
