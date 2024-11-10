@@ -1,4 +1,4 @@
- *{boder: 1px solid black;}
+ *{brder: 1px solid black;}
 
 html {scroll-behavior: smooth;
     }
@@ -42,27 +42,28 @@ p {
     padding-bottom: 2vw;
     }
 
-.textcontainer {
+.bio {
     padding: 3vw; 
-    display:flex; 
-    justify-content: center; 
-    flex-wrap: wrap;  
+    display:inline-flex; 
+    justify-content: center;  
     align-items: center;
+    gap: 2vw;
     }
 
+img {
+    width:100%;
+}
 
 .image { 
     display: block;
     margin: 0;
-    width: 42%;
+    width: 40%;
     align-items: left;
-    max-width: 100%;
     }   
 
 .text {
-    flex: 1 1 50%;
-    width: 45%;
-    text-align: right;
+    width: 55%;
+
     }
 
 
@@ -209,6 +210,7 @@ li a:hover {
     display: inline-block; 
     justify-content:space-between;
     margin: 3vw;
+    align-items: center;
 }
 
 .project-tile {
@@ -217,7 +219,11 @@ li a:hover {
     align-items: center;
     margin: auto;
     padding: 3vw;
+
 }
+/*Optimized to the number of projects for now. once there are
+more projects, i plan to make it a scrollable line that may 
+scroll by itself. 
 
 .project-graphics {
     display: inline-flex;
@@ -225,7 +231,16 @@ li a:hover {
 
 .project-descriptions {
     display: inline-flex;
-   
+}*/
+
+.project-graphics {
+    display: inline-flex;
+    gap: 5vw;
+}
+
+.project-descriptions {
+    display: inline-flex;
+    gap: 5vw;
     
 
 }
@@ -340,13 +355,92 @@ li a:hover {
     position: absolute;
 }
 
+.resume {
+
+}
+
+.Timeline {
+    width: 50vw;
+}
+
+.contactme {height: 50vh; 
+    background-color: wheat;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.icons {
+    display: block;
+    margin: auto;
+    bottom: 0;
+    text-align: center;
+    }
+
+.details {
+    margin-top: 15vh;
+}
+
+.details p {
+    text-align: center;
+    align-items: center;
+    color: black;
+}
+
+.details em {
+    text-align: center;
+    align-items: center;
+    color: #a05b67;
+    font-weight: bold;
+}
+
+.fa {
+    padding: 2vw;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 3px 1px;
+    
+}
+.fa-linkedin {
+    background-color: transparent;
+    color: #007bb5;
+    font-size: 300px;
+}
+
+.fa-instagram {
+    background-color: transparent;
+    color: black;
+}
+
+.fa-github {
+    background-color: transparent;
+    color: black;
+}
+.fa-credly {
+    margin: 0;
+    padding: 0;
+    width: 7%;
+}
+
+.fa-plum {
+    background-color: transparent;
+    color: black;
+    width: 7%;
+    margin: auto;
+}
+
 @media (max-width: 700px) {
+    .bio {
+        display: block;
+        margin: 0;
+    } 
+
     .text {
         width: 100%;
-        max-width: 100vw;
+        max-width: 100%;
         text-align: center;
         align-items: center;
-        padding: 2vw;
+        margin: auto;
         }
     
     p {
@@ -405,11 +499,14 @@ li a:hover {
         display: block;
         margin: 0;
         max-width: 100%;
+        width: 100vw;
+        align-items: center;
         }   
     
     
 
-    .welcomepage {margin: 3vw;
+    .welcomepage {
+        margin: 3vw;
         flex-direction: column; 
         align-items: center;
         justify-content: center;  
@@ -418,12 +515,6 @@ li a:hover {
         padding: 0;
     }
 
-    .image {
-        width: 100vw;
-        max-width: 100%;
-        text-align: center;
-        align-items: center;
-        }
 
     .videoplaceholder {
         width: 100%;
@@ -465,7 +556,7 @@ li a:hover {
         width: 60%;
         margin: 2vw;
         }
-    }
+    
         
         .mouseyvideo {
         width:100%;
@@ -478,14 +569,14 @@ li a:hover {
         order: 1;
     }
         
-    .downloadgame {display: flex;
+    .downloadgame {
+        display: flex;
         order: 3;
         justify-content: space-between;
         margin: 5vw;
     }
 
     .mouseydownload {
-        
         height: 10vw;
         width: 25%;
         background-color: linen;
@@ -494,6 +585,7 @@ li a:hover {
         align-items: center;
         margin: 1vw
     }
+
     .imagedescription {
         border: 0.01vw solid #a05b67;
         width: 20vw;
@@ -501,6 +593,7 @@ li a:hover {
         display: flex;
         justify-content: center;
     }
+
     .recipes-content {
         display: flex;
         margin: auto;
@@ -514,7 +607,51 @@ li a:hover {
         background-color: #c7c7ca;
         margin-top: 5vw;
         align-items: center;
+
+    .fa {
+        padding: 2vw;
+        width: 50px;
+        text-align: center;
+        text-decoration: none;
+        margin: 3px 1px;
+        
+    }
+
+    .fa-linkedin {
+        background-color: transparent;
+        color: #007bb5;
+    }
+    
+    .fa-instagram {
+        background-color: transparent;
+        color: black;
+    }
+    
+    .fa-github {
+        background-color: transparent;
+        color: black;
+    }
+    .fa-credly {
+        margin: auto;
+
+    }
+    
+    .fa-plum {
+        width: 15%;
+        margin: auto;
+    }
+
+    .details {
+        margin-top: 15vh;
+    }
+
+    .contactme {height: 30vh; 
+        background-color: wheat;
+        align-items: center;
+        margin-bottom: 0;
+    }
 }
+    }
 
 
 @keyframes arrow {
