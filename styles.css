@@ -497,7 +497,7 @@ scroll by itself.
     
     .image { 
         display: block;
-        margin: 0;
+        margin-bottom: 4vw;
         max-width: 100%;
         width: 100vw;
         align-items: center;
@@ -607,7 +607,7 @@ scroll by itself.
         background-color: #c7c7ca;
         margin-top: 5vw;
         align-items: center;
-
+    }
     .fa {
         padding: 2vw;
         width: 50px;
@@ -642,7 +642,7 @@ scroll by itself.
     }
 
     .details {
-        margin-top: 15vh;
+        margin-top: 10vh;
     }
 
     .contactme {height: 30vh; 
@@ -650,7 +650,7 @@ scroll by itself.
         align-items: center;
         margin-bottom: 0;
     }
-}
+
     }
 
 
