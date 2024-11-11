@@ -1,4 +1,4 @@
- *{brder: 1px solid black;}
+ *{boder: 1px solid black;}
 
 html {scroll-behavior: smooth;
     }
@@ -115,6 +115,7 @@ li a:hover {
     background-color: wheat; 
     font-weight: bold;
     color: #a05b67;
+    
 }  
 
 
@@ -206,11 +207,16 @@ li a:hover {
     margin: auto;
 }  
 
+.projects {
+    margin: auto;
+    align-items: center;
+    display: flexbox;
+}
+
 .project-contents {
     display: inline-block; 
-    justify-content:space-between;
-    margin: 3vw;
     align-items: center;
+    margin: 3vw;
 }
 
 .project-tile {
@@ -272,7 +278,7 @@ scroll by itself.
 }
 
 .recipe-tile {
-    width: 100%;
+    width: 90%;
 }
 
 .videoplaceholder {
@@ -361,12 +367,14 @@ scroll by itself.
 
 .Timeline {
     width: 50vw;
+    padding: 5vw 0 ;
 }
 
 .contactme {height: 50vh; 
     background-color: wheat;
     align-items: center;
     margin-bottom: 0;
+    font-family: monospace;
 }
 
 .icons {
@@ -378,12 +386,14 @@ scroll by itself.
 
 .details {
     margin-top: 15vh;
+    
 }
 
 .details p {
     text-align: center;
     align-items: center;
     color: black;
+    
 }
 
 .details em {
@@ -391,6 +401,7 @@ scroll by itself.
     align-items: center;
     color: #a05b67;
     font-weight: bold;
+    text-decoration: none;
 }
 
 .fa {
@@ -609,7 +620,7 @@ scroll by itself.
         align-items: center;
     }
     .fa {
-        padding: 2vw;
+        padding-top: 1vw;
         width: 50px;
         text-align: center;
         text-decoration: none;
@@ -632,8 +643,9 @@ scroll by itself.
         color: black;
     }
     .fa-credly {
-        margin: auto;
-
+        margin: 0;
+        padding: 0;
+        width: 13%;
     }
     
     .fa-plum {
@@ -645,7 +657,7 @@ scroll by itself.
         margin-top: 10vh;
     }
 
-    .contactme {height: 30vh; 
+    .contactme {height: 33vh; 
         background-color: wheat;
         align-items: center;
         margin-bottom: 0;
