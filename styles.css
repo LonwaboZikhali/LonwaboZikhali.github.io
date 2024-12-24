@@ -1,4 +1,4 @@
- *{boder: 1px solid black;}
+ *{border: 1px solid black;}
 
 html {scroll-behavior: smooth;
     }
@@ -286,7 +286,7 @@ scroll by itself.
 }
 
 .videoplaceholder {
-    width: 100%;
+    width: 50%;
     height: 65vh;
     background-color: gray;
     margin: auto;
@@ -294,10 +294,13 @@ scroll by itself.
     margin-bottom: 0;
     color: black;
     }
-    
+
+.fieldset {
+    width: 50%;
+}
 .mouseytext {
         color: black;
-        width: 45%;
+        width: 100%;
         margin: auto;
         display: block;
         justify-content: column;
@@ -321,12 +324,12 @@ scroll by itself.
 }
     
 .mouseyvideo {
-    width:45%;
+    width:100%;
     margin: auto;
     display: block;
     align-items: center;
     text-align: center;
-    color: black;
+    color: white;
     margin-top: 0;
 }
     
