@@ -345,6 +345,7 @@ scroll by itself.
     margin: auto;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 .intro .line1 {
     
