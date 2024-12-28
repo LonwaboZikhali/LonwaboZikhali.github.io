@@ -1,4 +1,4 @@
- *{border: 1px solid black;}
+ *{boder: 1px solid black;}
 
 html {scroll-behavior: smooth;
     }
@@ -295,9 +295,10 @@ scroll by itself.
     color: black;
     }
 
-.fieldset {
-    width: 50%;
+fieldset {
+    border: none;
 }
+
 .mouseytext {
         color: black;
         width: 100%;
@@ -311,6 +312,7 @@ scroll by itself.
         justify-content: center;
         margin: 2vw;
         margin-top: 0;
+        gap: 3vw;
     }
     
 .mouseyparagraph {
@@ -318,10 +320,6 @@ scroll by itself.
         font-size: 1.2vw ;
         margin: 0;
     }
-
-.videoparagraph {
-    order: 3;
-}
     
 .mouseyvideo {
     width:100%;
@@ -340,6 +338,14 @@ scroll by itself.
     background-color: linen;
 }
 
+.downloadgame {
+    display: flexbox;
+    order: 3;
+    justify-content: center;
+    margin: 2vw;
+    align-items: center;
+    text-align: center;
+}
 
 .hi-there {
     margin: auto;
@@ -570,9 +576,9 @@ scroll by itself.
         
     .videoparagraph {
         font-family: monospace; 
-        font-size: 3vw;
+        font-size: 2.5vw;
         color: wheat;
-        width: 60%;
+        width: 95%;
         margin: 2vw;
         }
     
@@ -587,22 +593,33 @@ scroll by itself.
         margin-top: 0;
         order: 1;
     }
+
+    fieldset {
+        border: none;
+    }
         
     .downloadgame {
-        display: flex;
+        display: flexbox;
         order: 3;
-        justify-content: space-between;
-        margin: 5vw;
+        justify-content: center;
+        margin: 2vw;
+        align-items: center;
+        text-align: center;
     }
 
     .mouseydownload {
         height: 10vw;
-        width: 25%;
+        width: 40%;
         background-color: linen;
         color: #a05b67;
         font-size: 2vw;
-        align-items: center;
-        margin: 1vw
+        margin: 1vw;
+        border-radius: 5%;
+    }
+
+    .downloadlink {
+        height: auto;
+        width: auto;
     }
 
     .imagedescription {
