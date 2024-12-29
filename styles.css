@@ -410,6 +410,12 @@ fieldset {
     
 }
 
+.checkback {
+    width: 50vw;
+    margin: auto;
+    padding-top: 25vh;
+}
+
 .details em {
     text-align: center;
     align-items: center;
