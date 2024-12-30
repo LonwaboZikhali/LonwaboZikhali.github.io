@@ -328,17 +328,27 @@ footer {
     height: 35vw;
     width: 45vw;
     display: flex;
+    padding: 3vw;
+    font-size: 3vw;
 }
 .left{
     margin-left: 10vw;
+    color: white;
+    align-self: flex-start;
+    background-color: black;
 }
 
 .right {
     margin-right: 0;
-    background-color: orange;
+    background-color: grey;
     right: 0;
     align-self: flex-end;
     margin-right: 10vw;
+    color: white;
+}
+
+.one {
+    
 }
 
 .fa {
