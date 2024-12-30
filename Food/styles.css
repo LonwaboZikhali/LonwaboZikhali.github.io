@@ -1,0 +1,94 @@
+ *{boder: 1px solid black;}
+
+html {scroll-behavior: smooth;
+    }
+    
+body {background-color:#a05b67; 
+      margin: 0;
+    }
+    
+
+h1 {text-align: center;
+    font-size: 7vw;
+    margin-bottom: 2vw;
+    color: wheat;
+    }
+
+a {
+    color: wheat;
+    }
+
+p {
+    text-align: justify; 
+    margin:auto; 
+    color: linen;
+    font-family: monospace; 
+    font-size: 1.6vw;
+    padding-bottom: 2vw;
+    }
+
+.recipes {
+    margin: 2vw;
+    padding:0 ;
+}
+
+.recipe-tile img{
+    width: 90%
+}
+
+
+.foodimagetext {
+    width: 50%;
+    display: inline-block;
+    margin: auto;
+    top: 0;
+    font-size: 1.3vw;
+    color:#a05b67;
+    font-weight: 500;
+}
+
+
+@media (max-width: 700px) {
+    
+    p {
+        font-size: 14px;
+    }
+
+    
+    .imagedescription {
+        border: 0.01vw solid #a05b67;
+        width: 20vw;
+        height: 10vw;
+        display: flex;
+        justify-content: center;
+    }
+
+    .recipes-content {
+        display: flex;
+        margin: auto;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 2.5vw;
+        width: 50%;
+        border: solid 2px wheat;
+        border-radius: 1%;
+        padding: 2vw;
+        background-color: #c7c7ca;
+        margin-top: 5vw;
+        align-items: center;
+    }
+
+@font-face {
+    font-family: 'Boho';
+    src: url('fonts\Boho.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Fatone Script';
+    src: url('fonts\Fatone Script.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+}

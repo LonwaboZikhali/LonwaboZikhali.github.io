@@ -4,8 +4,10 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial scale=1.0" user-scalable="no">
   <meta name="color-scheme" content="light dark" />
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="index assets\styles.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+
   <title>NWABLES</title>
 </head>
 <body>
@@ -26,14 +28,14 @@
   <p class="intro column line1" >Hi! My name is Lonwabo Zikhali.</p>
   <p class="intro column line2" > - A budding software engineer</p>
 </div>
-    <a href="#welcome-page" id="arrow"><img src="arrow.png" alt="arrow" class="arrow link"/></a>
+    <a href="#welcome-page" id="arrow"><img src="index assets\arrow.png" alt="arrow" class="arrow link"/></a>
 </section>
 <section id="welcome-page" class="welcomepage">
   <h2>DELIGHTED TO HAVE YOU HERE!</h2>
   <br />
   <div class="bio">
     <div class="image">
-      <img src="resume/IMG_Lonwabo.jpg" alt="a picture of me in the sun">
+      <img src="index assets\IMG_Lonwabo.jpg" alt="a picture of me in the sun">
     </div>
     <div class="text">
       <p>Affectionately known as Nwables, I am a fun-loving, food-adoring nature lover from the East Rand, South Africa. 
@@ -59,11 +61,11 @@
 
 <div class="project-graphics">
   <div class="project-tile">
-  <a href="Mousey.html"><img class="mousey-tile" src="Mousestop.png" alt="a mouse"/></a>
+  <a href="mousey\Mousey.html"><img class="mousey-tile" src="mousey\Mousestop.png" alt="a mouse"/></a>
   </div>
 
   <div class="project-tile">
-  <a href="Essential-recipes.html"><img class="recipe-tile" src="forkspoon.png" alt="a fork and spoon"/></a>
+  <a href="Food\Essential-recipes.html"><img class="recipe-tile" src="Food\assets\forkspoon.png" alt="a fork and spoon"/></a>
   </div>
 </div>
 
@@ -81,20 +83,48 @@
 
 <section id="resume/cv" class="resume">
 <h1>My Resumé</h1>
-<img class="Timeline" src="Timeline.png" alt="A timeline of my career"/>
+<div class="downloadresume">
+<p class="downloadresume">Download my Resumé:</p>
+<button class="downloadbutton">pdf</button>
+<button class="downloadbutton">docx</button>
+</div>
+<br/>
+
+<section class="blocks">
+<div class="test left" data-aos="zoom-in-right">this guy</div>
+<div class="test right" data-aos="zoom-in-left">this guy</div>
+<div class="test left" data-aos="zoom-in-right">this guy</div>
+<div class="test right" data-aos="zoom-in-left">this guy</div>
+<div class="test left" data-aos="zoom-in-right">this guy</div>
+<div class="test right" data-aos="zoom-in-left">this guy</div>
+</section>
+<br/>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script>
+
+AOS.init({
+  duration: 1000,
+  easing: 'ease',
+  once: false,
+});
+
+</script>
+
+<!--<img class="Timeline" src="resume\assets\Timeline.png" alt="A timeline of my career"/> -->
 
 </section>
 
 <br />
-
+</body>
 <footer>
   <section id="contact-me" class="contactme">
     <br />
     <div class="details">
-      <a href="tel:+27845962418" class="contact"><i class="solid fa fa-phone fa-1x"></i> +27845962418</a>
-      <a href="mailto:zikhalilonwabo@gmail.com" class="contact"><i class="solid fa fa-envelope fa-1x"></i> zikhalilonwabo@gmail.com</a>
+      <a href="tel:+27845962418" class="contact"><span class="solid fa fa-phone fa-1x"></span> +27845962418</a>
+      <br/>
+      <a href="mailto:zikhalilonwabo@gmail.com" class="contact"><span class="solid fa fa-envelope fa-1x"></span> zikhalilonwabo@gmail.com</a>
       </div>
-    
+    <br/>
     <div class="icons">
   <a href="https://www.linkedin.com/in/lonwabo-zikhali-b38a74226/?originalSubdomain=za" class="solid fa fa-linkedin fa-3x"></a>
   <a href="https://github.com/LonwaboZikhali" class="solid fa fa-github fa-3x"></a>
@@ -105,7 +135,6 @@
 </div>
   </section>
 </footer>
-</body>
 </html>
 
 <!-- add a downloadable resume
