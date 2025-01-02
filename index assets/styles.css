@@ -323,13 +323,22 @@ footer {
     flex-direction: column;
 }
 
-.test {
+.careersimage {
+
+}
+
+.image-container {
+    
+}
+
+.institution {
     background-color: black;
     height: 35vw;
     width: 45vw;
     display: flex;
     padding: 3vw;
     font-size: 3vw;
+    transform: translate(-50%,-50%);
 }
 .left{
     margin-left: 10vw;
