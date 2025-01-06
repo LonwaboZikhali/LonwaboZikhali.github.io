@@ -327,19 +327,47 @@ footer {
 
 }
 
-.image-container {
+.image-container img {
+    height: 100%;
+    width: 100%;
     
 }
 
-.institution {
-    background-color: black;
-    height: 35vw;
-    width: 45vw;
-    display: flex;
-    padding: 3vw;
-    font-size: 3vw;
-    transform: translate(-50%,-50%);
+.image-container {
+    position: relative;
+    text-align: center;
+    height: 40vw;
+    width: 40vw;
 }
+
+.institution {
+    position: relative;
+    display: block;
+    background-color: black;
+    text-align: center;
+    height: 40vw;
+    width: 40vw;
+    font-size: 2.5vw;
+    
+}
+
+.careerstext {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: auto;
+    font-size: 2.5vw;
+    align-items:center;
+    text-align:center;
+    width: 90%;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    margin: auto;
+}
+
 .left{
     margin-left: 10vw;
     color: white;
@@ -348,9 +376,8 @@ footer {
 }
 
 .right {
-    margin-right: 0;
+   
     background-color: grey;
-    right: 0;
     align-self: flex-end;
     margin-right: 10vw;
     color: white;
