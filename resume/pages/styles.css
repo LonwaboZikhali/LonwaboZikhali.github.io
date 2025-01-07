@@ -5,9 +5,17 @@
 
 html {
     background-color: linen;
-    margin: 6vw;
+    margin: 0;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    margin: 6vw;
+}
 ul {
     font-size: 1.9vw;
     color: #a05b67;
@@ -15,10 +23,41 @@ ul {
     margin: auto;
     display:table;
     font-weight: bold;
+    text-align: center;
+    list-style-type:none;
+    line-height: 2.8vw;
 }
 
 p {
     font-size: 2vw;
     text-align: center;
     color: #a05b67;
+}
+
+.banner {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.spacer {
+    height: 3vw;
+}
+
+.labcoat {
+    width: 45vw
+}
+
+.inclosing {
+    width: 45vw
+}
+
+.closing {
+    display: flex;
+    gap: 4vw
+}
+
+img {
+    width: 100%;
+    height: auto;
 }
