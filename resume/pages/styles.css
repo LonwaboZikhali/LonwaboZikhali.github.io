@@ -61,3 +61,17 @@ img {
     width: 100%;
     height: auto;
 }
+
+.SAB {
+    width: 40%;
+}
+
+.part-one {
+    display: flex;
+    gap: 2vw;
+}
+
+.sabparagraphs {
+    margin: 3vw;
+    text-align: justify;
+}
