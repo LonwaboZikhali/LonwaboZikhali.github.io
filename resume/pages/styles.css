@@ -16,7 +16,7 @@ body {
 section {
     margin: 6vw;
 }
-ul {
+.health-list {
     font-size: 1.9vw;
     color: #a05b67;
     align-self: center;
@@ -54,24 +54,62 @@ p {
 
 .closing {
     display: flex;
-    gap: 4vw
+    gap: 4vw;
 }
 
 img {
+    display: block;
     width: 100%;
     height: auto;
 }
 
 .SAB {
+    display: block;
     width: 40%;
+    height: auto;
 }
 
 .part-one {
     display: flex;
     gap: 2vw;
+    margin-right: 2vw;
 }
 
-.sabparagraphs {
-    margin: 3vw;
+.part-two {
+    display: flex;
+    gap: 2vw;
+    margin-left: 2vw;
+}
+
+.part-three {
+    display: flex;
+    gap: 2vw;
+    padding: 4vw;
+}
+
+.sab-paragraphs {
+    margin: 5vw;
     text-align: justify;
+    width: 50%;
+    height: auto;
+    line-height: 2.5vw;
+}
+
+em {
+    font-weight: bold;
+}
+
+.sab-list {
+    font-size: 1.9vw;
+    color: #a05b67;
+    align-self: center;
+    margin: auto;
+    display:table;
+    text-align: center;
+    list-style-type:none;
+    line-height: 2.5vw;
+}
+
+.taught-me{
+    text-align: center;
 }
