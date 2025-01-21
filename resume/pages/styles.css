@@ -1,5 +1,5 @@
 * {
-    border: 1px solid black;
+    boder: 1px solid black;
 
 }
 
@@ -101,6 +101,8 @@ img {
     padding: 0;
     align-items: center;
     justify-content: center;
+    margin: auto;
+
 
 }
 
@@ -135,9 +137,31 @@ em {
 }
 
 .WTC {
-    width: 40vw
+    width: 40vw;
+}
+ 
+.ccbsa {
+    margin: 0;
+    padding: 0;
 }
 
-.ccbsa {
-    width: 40%;
+.ccbsaimage {
+    height: 100vh;
+    width: 40vw;
+    position: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+.everything-else {
+    margin: 0;
+    padding: 0;
+    margin-left: 40vw;
+    width: 55vw;
+    
+}
+
+.lokhunjan {
+    margin: 0;
+    padding: 0;
 }
