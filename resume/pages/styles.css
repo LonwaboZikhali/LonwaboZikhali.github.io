@@ -1,5 +1,5 @@
 * {
-    boder: 1px solid black;
+    border: 1px solid black;
 
 }
 
@@ -60,13 +60,18 @@ p {
 img {
     display: block;
     width: 100%;
-    height: auto;
+    height: 100%;
 }
 
 .SAB {
     display: block;
     width: 40%;
     height: auto;
+}
+
+.tweede {
+    width: 50%;
+    height: 100vh;
 }
 
 .part-one {
@@ -77,22 +82,26 @@ img {
 
 .part-two {
     display: flex;
-    gap: 2vw;
-    margin-left: 2vw;
+    gap: 5vw;
+    align-items: center;
+    justify-content: center;
+
 }
 
 .part-three {
     display: flex;
-    gap: 2vw;
-    padding: 4vw;
+    padding: 2vw;
 }
 
 .sab-paragraphs {
-    margin: 5vw;
-    text-align: justify;
+    
     width: 50%;
     height: auto;
     line-height: 2.5vw;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+
 }
 
 em {
@@ -100,16 +109,35 @@ em {
 }
 
 .sab-list {
-    font-size: 1.9vw;
+    font-size: 1.6vw;
     color: #a05b67;
-    align-self: center;
-    margin: auto;
-    display:table;
-    text-align: center;
+    margin: 0;
+    display:block;
     list-style-type:none;
     line-height: 2.5vw;
+    height: 100vh;
+    align-items: center;
+    padding: 0 1vw 0 1vw;
+    
 }
 
 .taught-me{
     text-align: center;
+}
+
+.list-item {
+
+    margin: auto;
+    padding: auto;
+    text-align: justify;
+    align-items: center;
+    justify-content: center;
+}
+
+.WTC {
+    width: 40vw
+}
+
+.ccbsa {
+    width: 40%;
 }
