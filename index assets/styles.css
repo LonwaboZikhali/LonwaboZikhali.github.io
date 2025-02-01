@@ -324,6 +324,11 @@ footer {
     gap: 1vw;
 }
 
+.downloadbutton{
+    color: black;
+    text-decoration: overline;
+}
+
 .careersimage {
 
 }
