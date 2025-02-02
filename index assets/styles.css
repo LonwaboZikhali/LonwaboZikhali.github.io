@@ -322,20 +322,21 @@ footer {
     display: flex;
     flex-direction: column;
     gap: 1vw;
+    padding: 0;
+    margin: 0;
 }
 
 .downloadbutton{
     color: black;
     text-decoration: none;
-}
-
-.careersimage {
-
+    background-color: beige;
 }
 
 .image-container img {
     height: 100%;
     width: 100%;
+    padding: 0;
+    margin: 0;
     
 }
 
@@ -344,6 +345,8 @@ footer {
     text-align: center;
     height: 40vw;
     width: 40vw;
+    padding: 0;
+    margin: 0;
 }
 
 .institution {
@@ -352,8 +355,9 @@ footer {
     background-color: black;
     text-align: center;
     height: 40vw;
-    width: 100%;
     font-size: 2.5vw;
+    padding: 0;
+    margin: 0;
     
 }
 
@@ -367,7 +371,6 @@ footer {
     font-size: 2.5vw;
     align-items:center;
     text-align:center;
-    width: 90%;
     height: 100%;
     width: 100%;
     display: flex;
@@ -387,9 +390,6 @@ footer {
     color: white;
 }
 
-.one {
-    
-}
 
 .fa {
     padding: 2vw;
