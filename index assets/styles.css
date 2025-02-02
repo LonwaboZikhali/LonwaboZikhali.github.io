@@ -1,17 +1,27 @@
  *{boder: 1px solid black;}
 
 html {scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
     }
     
 body {background-color:#a05b67; 
       margin: 0;
+      padding: 0;
     }
     
-.hi-there {height: 100vh;}
+.hi-there {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
 
 header {display: flex; 
     align-items: flex-end;
-    width: 100%;}
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
 
 h1 {text-align: center;
     font-size: 7vw;
@@ -98,7 +108,6 @@ ul {
     width: 100%;
     display: flex;
     align-items: flex-end;
-
 }
 
 li a {
@@ -120,13 +129,13 @@ li a:hover {
 
 
 .welcomepage {
-    margin: 3vw;
+    
     flex-direction: column; 
     align-items: center;
     justify-content: center;  
     position: relative; 
     transform: scale(1);
-    padding: 2vw;
+
 }
 
 
@@ -174,6 +183,8 @@ li a:hover {
     margin: auto;
     align-items: center;
     display: flexbox;
+    margin: 0;
+    padding: 0;
 }
 
 .project-contents {
@@ -250,6 +261,8 @@ scroll by itself.
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 0;
+    padding: 0;
 }
 .intro .line1 {
     
