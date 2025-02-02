@@ -1,5 +1,5 @@
 * {
-    border: 1px solid black;
+    boder: 1px solid black;
 
 }
 
@@ -129,6 +129,8 @@ em {
 
 .taught-me{
     text-align: center;
+    color: black;
+    font-weight: bold;
 }
 
 .list-item {
@@ -147,6 +149,7 @@ em {
 .ccbsa {
     margin: 0;
     padding: 0;
+    align-items: center;
 }
 
 .ccbsaimage {
@@ -160,14 +163,17 @@ em {
 .everything-else {
     margin: 0;
     padding: 0;
-    margin-left: 40vw;
+    margin-left: 42vw;
     width: 55vw;
+    align-items: center;
+    height: auto;
     
 }
 
 .lokhunjan {
     margin: 0;
     padding: 0;
+    align-items: center;
 }
 
 .subjects {
@@ -177,4 +183,26 @@ em {
     display:block;
     line-height: 2.5vw;
     text-align: center;
+}
+
+.ccbsa-list {
+    font-size: 1.6vw;
+    color: #a05b67;
+    margin: 0;
+    display:block;
+    list-style-type:none;
+    line-height: 2.5vw;
+    align-items: center;
+    padding: 0 1vw 0 1vw;
+}
+.WTC-one{
+    display: flex;
+}
+
+.WTC-first {
+    display: block;
+}
+
+.WTC-paragraph {
+    display: block;
 }
