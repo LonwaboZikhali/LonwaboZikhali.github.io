@@ -391,7 +391,7 @@ footer {
 }
 
 .left{
-    margin-left: 10vw;
+    margin-left: 13vw;
     color: white;
     align-self: flex-start;
 }
@@ -399,7 +399,7 @@ footer {
 .right {
    
     align-self: flex-end;
-    margin-right: 10vw;
+    margin-right: 13vw;
     color: white;
 }
 

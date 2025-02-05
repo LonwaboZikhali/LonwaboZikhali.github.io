@@ -1,5 +1,5 @@
 * {
-    boder: 1px solid black;
+    border: 1px solid black;
 
 }
 
@@ -208,4 +208,17 @@ em {
 
 .WTC-paragraph {
     display: block;
+}
+
+@media (max-width: 700px) {
+
+.high-school, .subjects{ 
+    font-size: 3vw;
+    line-height: 4vw;
+}
+
+
+
+
+
 }
