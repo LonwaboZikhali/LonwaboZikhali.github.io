@@ -339,11 +339,12 @@ footer {
     margin: 0;
 }
 
-.downloadbutton{
+.downloadbutton {
     color: black;
     text-decoration: none;
-    background-color: beige;
+
 }
+
 
 .image-container img {
     height: 100%;

@@ -7,8 +7,8 @@ html {
     background-color: linen;
     margin: 0;
     padding: 0;
-    width: 100vw;
     align-items: center;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -210,15 +210,77 @@ em {
     display: block;
 }
 
-@media (max-width: 700px) {
-
-.high-school, .subjects{ 
-    font-size: 3vw;
-    line-height: 4vw;
+ul {
+    padding: 0;
 }
 
+@media (max-width: 700px) {
 
+p, li { 
+    font-size: 3vw;
+    line-height: 4vw;
+    padding: 0 5vw;
+}
 
+.labcoat {
+    width: 100%;
+    order: 0;
 
+}
+
+.inclosing {
+    width: 100%;
+    margin-top: 0;
+    padding-top: 0;
+    
+}
+
+.closing {
+    display: block;
+    
+    gap: 4vw;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.SAB {
+    display: block;
+    width: 100%;
+    height: 90vh;
+    order: 0;
+}
+
+.sab-list {
+    color: #a05b67;
+    margin: 0;
+    display:block;
+    list-style-type:none;
+    line-height: 2.5vw;
+    height: 100vh;
+    align-items: center;
+    padding: 0 1vw 0 1vw;
+    
+}
+
+.sab-paragraphs {
+    
+    width: 100%;
+
+    order: 1;
+    display: block;
+}
+
+.part-one {
+    display: block;
+    align-items: center;
+}
+
+.part-two {
+    display: block;
+    align-items: center;
+    justify-content: center;
+
+}
 
 }
