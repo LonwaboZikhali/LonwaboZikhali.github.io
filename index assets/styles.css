@@ -391,16 +391,14 @@ footer {
 }
 
 .left{
-    margin-left: 13vw;
-    color: white;
+    margin-left: 8vw;
     align-self: flex-start;
 }
 
 .right {
    
     align-self: flex-end;
-    margin-right: 13vw;
-    color: white;
+    margin-right: 8vw;
 }
 
 
@@ -558,6 +556,16 @@ footer {
         padding: 0;
     }
 
+    .left{
+        margin-left: 15vw;
+        align-self: flex-start;
+    }
+    
+    .right {
+       
+        align-self: flex-end;
+        margin-right: 15vw;
+    }
 
     .fa {
         padding-top: 1vw;
