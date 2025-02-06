@@ -439,7 +439,7 @@ footer {
     margin: auto;
 }
 
-.fa-phone {
+.fa-envelope, .fa-pencil, .fa-phone  {
     background-color: transparent;
     color: black;
     width: 5px;
@@ -448,17 +448,6 @@ footer {
     height: 5px;
     gap: 3vw;
 }
-
-.fa-envelope {
-    background-color: transparent;
-    color: black;
-    width: 5px;
-    margin: 1.5vw;
-    padding: 0;
-    height: 5px;
-    gap: 3vw;
-}
-
 .contact {
     display:flexbox;
     font-size: 2vw;
