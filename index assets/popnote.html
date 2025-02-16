@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-JN0S7L8N99"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-JN0S7L8N99');
+</script>
+
+    <link rel="stylesheet" href="styles.css" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PopMeaNote</title>
+</head>
+<body>
+    <h1 class="checkback">Any feedback is appreciated:</h1>
+    <form id="feedback">
+        <label for="userinput">Enter text: </label>
+        <input name="userinput" id="userinput" type="text" required>
+        <button type="submit">Submit Feedback</button>
+        </form>
+
+<script>
+    document.getElementById("feedback").addEventListener("submit",function(event) {
+event.preventDefault();
+let feedback = document.getElementById("userinput").value;
+
+fetch("/save-feedback", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ feedback: feedback })
+})
+.then(response => response.text())
+.then(data => {
+    document.getElementById("responseMessage").innerText = data;
+    document.getElementById("userInput").value = "";
+})
+.catch(error => console.error("Error:", error));
+    });
+</script>
+
+</body>
+</html>
