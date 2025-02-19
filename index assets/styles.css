@@ -1,4 +1,4 @@
- *{boder: 1px solid black;}
+ *{border: 1px solid black;}
 
 html {scroll-behavior: smooth;
     margin: 0;
@@ -459,8 +459,33 @@ footer {
     gap: 2vw;
 }
 
+.spacer {
+    height: 15vh;
+}
+
+.userinput {
+    height: 70vh;
+    width: 80vw;
+    margin: auto;
+    display: block;
+    text-align: center;
+    font-size: 2vw;
+    color: #a05b67;
+    /* background-color: linen; */
+
+}
+
+button {
+    display: block;
+    margin: auto;
+}
+form {
+    display: block;
+
+}
 
 @media (max-width: 700px) {
+
     .bio {
         display: block;
         margin: 0;

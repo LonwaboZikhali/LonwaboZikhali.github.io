@@ -16,14 +16,22 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PopMeaNote</title>
+
 </head>
+
 <body>
     <h1 class="checkback">Any feedback is appreciated:</h1>
+
+    <div class="spacer" ></div>
+    
     <form id="feedback">
-        <label for="userinput">Enter text: </label>
-        <input name="userinput" id="userinput" type="text" required>
+
+        <input name="userinput" class="userinput" id="userinput" type="text" required>
+        <br/>
         <button type="submit">Submit Feedback</button>
-        </form>
+        <div class="spacer" ></div>
+
+    </form>
 
 <script>
     document.getElementById("feedback").addEventListener("submit",function(event) {
