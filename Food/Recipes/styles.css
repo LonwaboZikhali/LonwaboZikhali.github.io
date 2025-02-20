@@ -124,7 +124,7 @@ h2 {
 @media (max-width: 700px) {
 
 .pancakes {
-    height: 90vh;
+    height: 60vh;
     display: block;
     position:relative;
     width: 100%;
@@ -154,7 +154,7 @@ a {
 
 p {
     margin: auto;
-    font-size: 1.5vw;
+    font-size: 1.3vw;
     /*color: #a05b67;*/
     font-family: Boho;
     text-align: justify;
