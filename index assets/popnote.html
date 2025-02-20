@@ -22,35 +22,16 @@
 <body>
     <h1 class="checkback">Any feedback is appreciated:</h1>
 
-    <div class="spacer" ></div>
+    <div class="spacer"></div>
     
-    <form id="feedback">
-
-        <input name="userinput" class="userinput" id="userinput" type="text" required>
+    <form id="feedback" action="https://formspree.io/f/mvgzlkbw" method="POST">
+        <label>
+        <input name="user says:" class="userinput" id="userinput" type="text" required>
+    </label>
         <br/>
         <button type="submit">Submit Feedback</button>
         <div class="spacer" ></div>
-
+        
     </form>
-
-<script>
-    document.getElementById("feedback").addEventListener("submit",function(event) {
-event.preventDefault();
-let feedback = document.getElementById("userinput").value;
-
-fetch("/save-feedback", {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({ feedback: feedback })
-})
-.then(response => response.text())
-.then(data => {
-    document.getElementById("responseMessage").innerText = data;
-    document.getElementById("userInput").value = "";
-})
-.catch(error => console.error("Error:", error));
-    });
-</script>
-
 </body>
 </html>
