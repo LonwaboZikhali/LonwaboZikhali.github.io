@@ -155,6 +155,18 @@ li a:hover {
     padding:0 ;
 }
 
+.visual {
+    text-decoration: underline;
+    color: wheat;
+    font-size: 1.9vw;
+
+}
+
+.HIVstory {
+    margin: 5vw;
+    padding:0 ;
+}
+
 .recipe-tile img{
     width: 90%
 }
