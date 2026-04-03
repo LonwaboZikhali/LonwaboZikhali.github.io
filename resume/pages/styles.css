@@ -16,6 +16,20 @@ body {
     padding: 0;
 }
 
+.grad_paragraph {
+    margin: 0;
+}
+
+.gradvideo {
+    width:80%;
+    margin: auto;
+    display: block;
+    align-items: center;
+    text-align: center;
+    color: white;
+    margin-top: 0;
+}
+
 section {
     margin: 6vw;
 }
